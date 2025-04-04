@@ -15,7 +15,7 @@ wandb_run_name = 'mini-gpt'
 
 dataset = 'shakespeare_char'
 gradient_accumulation_steps = 1
-batch_size = 12 #64
+batch_size = 12 #64 also scales linearly
 block_size = 128 #256 # context of up to 256 previous characters. Remark: Iter time scales proportionally to the block size
 
 # baby GPT model :)
